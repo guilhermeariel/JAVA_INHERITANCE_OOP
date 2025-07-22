@@ -5,8 +5,34 @@ public class Main {
     public static void main(String[] args) {
         Pessoa pessoa = new Pessoa();
         Aluno aluno = new Aluno();
-        Pessoa pessoa2 = new Pessoa();
+        Professor professor = new Professor();
         Funcionario funcionario = new Funcionario();
+
+        pessoa.setNome("Guilherme");
+        aluno.setNome("Alan");
+        professor.setNome("Michael");
+        funcionario.setNome("Creusa");
+
+        pessoa.setIdade(31);
+        aluno.setIdade(14);
+        professor.setIdade(42);
+        funcionario.setIdade(49);
+
+        pessoa.setSexo("Masculino");
+        aluno.setSexo("Masculino");
+        pessoa.setSexo("Masculino");
+        funcionario.setSexo("Feminino");
+
+        aluno.setCurso("Informatica");
+        professor.setEspecialidade("Matematica aplicada");
+        funcionario.setSetor("Limpeza");
+
+
+        System.out.println(pessoa.toString());
+        System.out.println(aluno.toString());
+        System.out.println(professor.toString());
+        System.out.println(funcionario.toString());
+
 
 
 
