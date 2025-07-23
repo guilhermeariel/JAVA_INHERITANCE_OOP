@@ -1,4 +1,4 @@
-# Sistema Escolar em Java
+# Sistema Escolar em Java - POO HERANÇA -
 
 Este projeto é uma implementação simples em Java de um sistema escolar orientado a objetos.  
 O objetivo é demonstrar conceitos de Programação Orientada a Objetos (POO), como **herança**, **abstração**, **sobrescrita de métodos** e **modificadores de acesso**.
