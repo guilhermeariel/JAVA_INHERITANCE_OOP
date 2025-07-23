@@ -1,6 +1,5 @@
 package Aula10;
 
-
 public class Main {
     public static void main(String[] args) {
         Pessoa pessoa = new Pessoa();
@@ -27,14 +26,10 @@ public class Main {
         professor.setEspecialidade("Matematica aplicada");
         funcionario.setSetor("Limpeza");
 
-
-        System.out.println(pessoa.toString());
-        System.out.println(aluno.toString());
-        System.out.println(professor.toString());
-        System.out.println(funcionario.toString());
-
-
-
+        System.out.println(pessoa);
+        System.out.println(aluno);
+        System.out.println(professor);
+        System.out.println(funcionario);
 
 
     }
