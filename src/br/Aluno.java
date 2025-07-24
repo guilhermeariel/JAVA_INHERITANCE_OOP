@@ -11,6 +11,10 @@ public class Aluno extends Pessoa {
 
   }
 
+  public void pagarMensalidade() {
+    System.out.println("Pagando mensalidade do aluno " + this.getNome());
+  }
+
   //METODOS ESPECIAIS
   public int getMatricula() {
     return matricula;

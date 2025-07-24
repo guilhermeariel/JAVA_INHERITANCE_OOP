@@ -1,4 +1,4 @@
-package br;
+package Aula10;
 
-public class Visitante {
+public class Visitante extends Pessoa {
 }
